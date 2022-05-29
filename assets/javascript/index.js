@@ -41,7 +41,7 @@
     minuteDisplay = document.getElementById('min'),
     hourDisplay = document.getElementById('hour'),
     dayDisplay = document.getElementById('day'),
-    grad = new Date(2022, 6, 13, 0, 0, 0, 0),
+    grad = new Date(2022, 6, 31, 0, 0, 0, 0),
     monthDays = {
       cache: {},
       getTotalDaysInMonth: function(year, month) {
@@ -105,3 +105,5 @@
   requestAnimationFrame(set);
 
 })();
+
+console.log(numberOfDays());
