@@ -26,3 +26,8 @@ time canvas {
   width: 40px;
   height: 40px;
 }
+
+footer img {
+  max-width: 60px;
+  max-height: 60px;
+}
